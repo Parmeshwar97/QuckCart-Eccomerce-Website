@@ -17,6 +17,10 @@ export const addToCart = (event, id, stock) => {
     (curProd) => curProd.id === id
   );
 
+  if (existingProd && quantity == 1) {
+    showToast("",id, quantity);
+  }
+
   if (existingProd && quantity > 1) {
     quantity = Number(existingProd.quantity) + Number(quantity);
     price = Number(price * quantity);
