@@ -733,7 +733,7 @@ footer {
 
 /***** End Footer Section *****/
 
-/**** Our Home product section  Starts ***/
+/**** Home product section  Starts ***/
 #productContainer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -991,7 +991,7 @@ footer {
 
 /*****  media queries Section *****/
 
-/* https://getbootstrap.com/docs/5.0/layout/breakpoints/ */
+
 
 @media (width <= 1380px) {
   html {
