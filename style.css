@@ -861,8 +861,8 @@ footer {
 .add-to-cart-button,
 .contact-btn,
 .hero-btn a {
-  font-weight: 500;
-  font: inherit;
+  font-weight: 500 !important;
+  font: inherit ;
   border-radius: 6px;
   border: 0;
   padding: 1rem 2.8rem;
